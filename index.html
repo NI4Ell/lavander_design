@@ -693,7 +693,8 @@
       grid-column: 2 / 4; grid-row: 2;
       display: flex; align-items: center; justify-content: space-between;
     }
-    .cart-row .qty { width: fit-content; }
+    .cart-row .qty { width: fit-content; flex-shrink: 0; min-width: max-content; }
+    .cart-row-bottom { min-width: 0; }
     .cart-price { font-size: 17px; }
     .cart-ttl { font-size: 16px; }
     .cart-sub  { font-size: 13px; }
