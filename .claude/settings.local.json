@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -L -s --max-filesize 5000000 \"https://api.anthropic.com/v1/design/h/b_3RRjMafnXqyvhIWATdQg?open_file=%D0%9B%D0%B0%D0%B2%D0%B0%D0%BD%D0%B4%D0%B5%D1%80+-+%D0%92%D0%B0%D0%B9%D1%80%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D1%8B.html\" -o /tmp/lavander_design.html)",
+      "Bash(echo \"Exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(python3)"
+    ]
+  }
+}
