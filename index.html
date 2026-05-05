@@ -149,13 +149,15 @@
     display: inline-flex; align-items: center;
     border: 1.5px solid var(--line);
     border-radius: 8px;
-    -webkit-clip-path: inset(0 round 8px);
-    clip-path: inset(0 round 8px);
+    overflow: hidden;
+    flex-shrink: 0;
+    width: max-content;
     font-family: "Jost", sans-serif;
     font-size: 22px;
   }
   .qty span {
     flex: 0 0 42px;
+    width: 42px;
     display: flex; align-items: center; justify-content: center;
     cursor: pointer; padding: 6px 0;
   }
